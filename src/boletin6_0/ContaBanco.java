@@ -31,11 +31,11 @@ public class ContaBanco {
         this.ingresado = ingresado;
         
         if (ingresado>=0){
-            System.out.println("true" );
+            System.out.println(true);
         }   
         else
         
-        System.out.println("false");
+        System.out.println(false);
         saldo = saldo+ingresado;
                 
     }
@@ -45,10 +45,10 @@ public class ContaBanco {
         this.retirado = retirado;
         
         if (retirado>0)
-            System.out.println("true");
+            System.out.println(true);
         
         else
-            System.out.println("false");
+            System.out.println(false);
         
           saldo = saldo - retirado;
    
